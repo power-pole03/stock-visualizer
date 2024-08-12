@@ -1,0 +1,29 @@
+.App {
+  display: flex;
+  min-height: 100vh;
+  transition: background-color 0.3s ease;
+}
+
+.App.logged-in {
+  background-color: lavender;
+}
+
+.App.logged-out {
+  background-color: pink;
+}
+
+.left-panel {
+  width: 20%;
+  background-color: #f0f0f0;
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.right-panel {
+  width: 80%;
+  padding: 20px;
+}
+
+.login-container {
+  margin-bottom: 20px;
+}
